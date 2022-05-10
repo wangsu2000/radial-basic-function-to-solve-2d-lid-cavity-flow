@@ -8,7 +8,7 @@ The solver system can be decomposed into six_average_sample.m,generate_couple.m 
 
 This function has two input parameters: outer_radius and r to generate a hexagonal grid which covers a disk fixed in the coordinate origin.The mesh interval is r and the radius of the disk is outer_radius.
 
-#### How to generate a hexagonal grid in $$\Omega=[0,1]^2$$?
+#### How to generate a hexagonal grid in ![~](https://latex.codecogs.com/svg.image?\Omega=[0,1]^2)?
 
 Type in these codes in the command line and we get:
 
