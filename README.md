@@ -65,11 +65,11 @@ ans =
 
 ### arbitrary_try.m
 
-First I introduce there functions of a radial basic function:$$\phi \left( r \right)$$
+First I introduce there functions of a radial basic function:![~](https://latex.codecogs.com/svg.image?\phi&space;\left(&space;r&space;\right))
 
-$$\Delta \phi \left( r \right) = \frac{{{d^2}\phi \left( r \right)}}{{d{r^2}}} + \frac{{d - 1}}{r}\frac{{d\phi \left( r \right)}}{{dr}},d = 2$$
+![~](https://latex.codecogs.com/svg.image?\Delta&space;\phi&space;\left(&space;r&space;\right)&space;=&space;\frac{{{d^2}\phi&space;\left(&space;r&space;\right)}}{{d{r^2}}}&space;&plus;&space;\frac{{d&space;-&space;1}}{r}\frac{{d\phi&space;\left(&space;r&space;\right)}}{{dr}},d&space;=&space;2)
 
-$$\frac{{\partial \phi \left( r \right)}}{{\partial x}} = \frac{{d\phi \left( r \right)}}{{dr}}\frac{x}{r},\frac{{\partial \phi \left( r \right)}}{{\partial y}} = \frac{{d\phi \left( r \right)}}{{dr}}\frac{y}{r}$$
+![~](https://latex.codecogs.com/svg.image?\frac{{\partial&space;\phi&space;\left(&space;r&space;\right)}}{{\partial&space;x}}&space;=&space;\frac{{d\phi&space;\left(&space;r&space;\right)}}{{dr}}\frac{x}{r},\frac{{\partial&space;\phi&space;\left(&space;r&space;\right)}}{{\partial&space;y}}&space;=&space;\frac{{d\phi&space;\left(&space;r&space;\right)}}{{dr}}\frac{y}{r})
 
 So in the script I define three anonymous functions like that (the example denote the result of  7-degree polyharmonic spline):
 
@@ -81,7 +81,7 @@ Gf = @(r)(7*r.^5);
 
 The rule is:
 
-$$f = \phi \left( r \right),LF = \Delta \phi \left( r \right),Gf = \frac{1}{r}\frac{{d\phi \left( r \right)}}{{dr}}$$
+![~](https://latex.codecogs.com/svg.image?f&space;=&space;\phi&space;\left(&space;r&space;\right),LF&space;=&space;\Delta&space;\phi&space;\left(&space;r&space;\right),Gf&space;=&space;\frac{1}{r}\frac{{d\phi&space;\left(&space;r&space;\right)}}{{dr}})
 
 In fact we can get every radial basic function's three functions by algebra system toolboxs like that:
 
