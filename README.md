@@ -109,7 +109,7 @@ So the task is to calculate the Jacobian matrix of the following equations:
 
 ![2](./2.gif)
 
-from where $$\bullet$$means matrix multiplication and $$\times$$means Hadamard product
+from where ![~](https://latex.codecogs.com/svg.image?\bullet) means matrix multiplication and ![~](https://latex.codecogs.com/svg.image?\times) means Hadamard product
 
 In this script,Jall denote the Jacobian matrix.
 
@@ -118,9 +118,9 @@ In this script,Jall denote the Jacobian matrix.
 When Reynolds number becomes large,oscillation interferes the convergence speed can result.So I take upwind scheme like:
 ![3](./3.gif)
 
-D is used as DIS in the script 'Re1000.m' and disthreshold denote $$\delta$$ in the above picture.
+D is used as DIS in the script 'Re1000.m' and disthreshold denote ![~](https://latex.codecogs.com/svg.image?\delta) in the above picture.
 
-All the result(Re = 100,400,1000) is validated by [Ghia's result](https://www.sciencedirect.com/science/article/pii/0021999182900584)
+All the results(Re = 100,400,1000) are validated by [Ghia's result](https://www.sciencedirect.com/science/article/pii/0021999182900584)
 
 
 
